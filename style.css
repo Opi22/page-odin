@@ -140,3 +140,91 @@ second section
 /* 
 third section 
 */
+.container_3{
+    display: flex;
+    background-color: #E5E7Eb;
+    justify-content: center;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.box4 p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.box4 h1{
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+/* 
+section 4
+background-color:#F9FAF8;
+*/
+.container_4{
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.last_h1{
+    margin-left: 60px;
+    margin: auto;
+    margin-right: 130px;
+
+}
+
+.last_h1 h1{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.last_h1 h2{
+    color: #F9FAF8;
+    font-size: 19px;
+}
+.last_btn{
+    display: flex;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.last_btn button{
+    font-size: 14px;
+    border: 2.5px solid #F9FAF8;
+}
+.container_5{
+    background-color: #1F2937;
+    display: flex;
+    width: auto;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.container_5 h1{
+    color: #F9FAF8;
+    font-size: 14px;
+}
